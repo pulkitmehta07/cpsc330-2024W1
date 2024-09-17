@@ -23,12 +23,15 @@ parts:
   - file: lectures/notes/01_intro.ipynb
   - file: lectures/notes/02_terminology-decision-trees.ipynb
   - file: lectures/notes/03_ml-fundamentals.ipynb    
+  - file: lectures/notes/04_kNNs-SVM-RBF.ipynb   
+  - file: lectures/notes/05_preprocessing-pipelines.ipynb
 - caption: Section slides
   chapters:
   - file: lectures/101-Giulia-lectures/README
     sections:
       - file: lectures/101-Giulia-lectures/01_intro.ipynb
       - file: lectures/101-Giulia-lectures/02_terminology-decision-trees.ipynb
+      - file: lectures/101-Giulia-lectures/03_ml-fundamentals.ipynb
 
   - file: lectures/102-Varada-lectures/README
     sections:
@@ -36,13 +39,19 @@ parts:
         title: Lecture 1
       - url: "https://kvarada.github.io/cpsc330-slides/slides-02-terminology-decision-trees.html"
         title: Lecture 2
-
+      - url: "https://kvarada.github.io/cpsc330-slides/slides-03-ml-fundamentals.html"
+        title: Lecture 3
+      - url: "https://kvarada.github.io/cpsc330-slides/slides-04-kNNs-SVM-RBF.html"
+        title: Lecture 4        
+        
   - file: lectures/103-Firas-lectures/README
     sections:
-      - url: "https://firasm.github.io/cpsc330-slides/slides-01-intro.html"
+      - url: "https://firasm.github.io/cpsc330-slides/slides-01-intro"
         title: Lecture 1
-      - url: "https://firasm.github.io/cpsc330-slides/slides-02-terminology-decision-trees.html"
+      - url: "https://firasm.github.io/cpsc330-slides/slides-02-terminology-decision-trees"
         title: Lecture 2
+      - url: "https://firasm.github.io/cpsc330-slides/slides-03-ml-fundamentals"
+        title: Lecture 3
 
 - caption: Attribution
   chapters: 

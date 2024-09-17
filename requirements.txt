@@ -28,5 +28,10 @@ psutil>=5.7.2
 numpy
 linkify
 linkify-it-py
+panel
+watchfiles
+holoviews
+bokeh
+ipywidgets
 jupyter-book
 jupytext

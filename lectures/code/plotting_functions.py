@@ -91,7 +91,7 @@ def plot_knn_clf(X_train, y_train, X_test, n_neighbors=1, class_names=['class 0'
                 fc="k",
                 ec="k",
             )    
-    plt.show()
+    # plt.show()
 
 def plot_knn_decision_boundaries(X_train, y_train, k_values = [1,11,100]):
     fig, axes = plt.subplots(1, len(k_values), figsize=(15, 4))
@@ -106,7 +106,7 @@ def plot_knn_decision_boundaries(X_train, y_train, k_values = [1,11,100]):
             clf, X_train.to_numpy(), fill=True, eps=0.5, ax=ax, alpha=0.4
         )
         mglearn.discrete_scatter(X_train.iloc[:, 0], X_train.iloc[:, 1], y_train, ax=ax)
-        title = "n_neighbors={}\n train score={}, valid score={}".format(
+        title = "n_neighbors={}\n train score={},\n valid score={}".format(
             n_neighbors, round(mean_train_score, 2), round(mean_valid_score, 2)
         )
         ax.set_title(title)
@@ -154,7 +154,7 @@ def plot_svc_gamma(param_grid, X_train, y_train, x_label="longitude", y_label='l
             clf, X_train, fill=True, eps=0.5, ax=ax, alpha=0.4
         )
         mglearn.discrete_scatter(X_train[:, 0], X_train[:, 1], y_train, ax=ax)
-        title = "gamma={}\n train score={}, valid score={}".format(
+        title = "gamma={}\n train score={},\n valid score={}".format(
             gamma, round(mean_train_score, 2), round(mean_valid_score, 2)
         )
         ax.set_title(title)
@@ -174,7 +174,7 @@ def plot_svc_C(param_grid, X_train, y_train, x_label="longitude", y_label='latit
             clf, X_train, fill=True, eps=0.5, ax=ax, alpha=0.4
         )
         mglearn.discrete_scatter(X_train[:, 0], X_train[:, 1], y_train, ax=ax)
-        title = "C={}\n train score={}, valid score={}".format(
+        title = "C={}\n train score={},\n valid score={}".format(
             C, round(mean_train_score, 2), round(mean_valid_score, 2)
         )
         ax.set_title(title)

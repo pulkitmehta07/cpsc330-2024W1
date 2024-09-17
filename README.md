@@ -8,7 +8,7 @@ This is the course homepage for CPSC 330: Applied Machine Learning at the Univer
 ### Instructors
 - [Giulia Toti](gtoti@cs.ubc.ca) (Section 101: Tue Thu 3:30 to 4:50)
 - [Varada Kolhatkar](kvarada@cs.ubc.ca) (Section 102: Tue Thu 11:00 to 12:20)
-- [Firas Moosvi](firas.moosvi@ubc.ca) (Section 103: Tue Thu 5:00 to 6:20)
+- [Firas Moosvi](firas.moosvi@ubc.ca) (Section 103: Tue Thu 5:00 to 6:20) (Office Hours, Wed's ICCS 253, 1:30-2:30pm)
 
 ### Course co-ordinator
 - Devyani McLaren (cpsc330-admin@cs.ubc.ca), please reach out to Devyani for: admin questions, extensions, academic concessions etc. 
@@ -23,15 +23,16 @@ This is the course homepage for CPSC 330: Applied Machine Learning at the Univer
 - Hongkai Liu
 - Noah Marusenko
 - Jialin (Mike) Lu
-- Kimia Rostin	
-- Mahsa Zarei	
+- Kimia Rostin (OH's, Wed's 5-6:30pm, zoom - link on Canvas)
+- Mahsa Zarei	(OH's, Mon's 5-6pm, zoom - link on Canvas)
 - Mike Ju	
 - Mishaal Kazmi	
 - Rubia Reis Guerra	
 - Shadab Shaikh	
 - Sohbat Sandhu	
 - Stash Currie	
-- Tianyu (Niki) Duan	
+- Tianyu (Niki) Duan
+- Moein Heidari
 
 ## License
 
